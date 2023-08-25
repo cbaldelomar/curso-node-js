@@ -1,14 +1,22 @@
 {
   "name": "curso-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Curso de Node.js desde cero",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbaldelomar/curso-node-js.git"
+  },
   "scripts": {
     "dev:1": "nodemon ./clase-2/http.js",
     "dev:2": "nodemon ./clase-2/routing.js",
     "dev:3": "node --watch ./clase-2/express.js"
   },
-  "keywords": [],
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
