@@ -1,5 +1,7 @@
-# curso-node-js
-Curso de Node.js desde cero
+![Curso de Node.js](https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg)
+# Curso de Node.js
+
+Curso para aprender **Node.js** desde cero.
 
 ## Videos de las clases
 - Clase 1: [Introdcción a Node.js y módulos](https://www.youtube.com/watch?v=yB4n_K7dZV8)
@@ -37,7 +39,7 @@ Curso de Node.js desde cero
 
     _**Note**: To avoid invasive error messages, add `"errorLens.followCursor": "activeLine"` to `settings.json` to display the error only on the active line._
 
-### Config nodemon
+### Using nodemon
 
 1. Install [nodemon](https://github.com/remy/nodemon)
     ```bash
