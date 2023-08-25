@@ -4,7 +4,7 @@ Curso de Node.js desde cero
 ## Videos de las clases
 - Clase 1: [Introdcción a Node.js y módulos](https://www.youtube.com/watch?v=yB4n_K7dZV8)
 - Clase 2: [Desarrollando una API con Express desde cero](https://www.youtube.com/watch?v=YmZE1HXjpd4)
-- Clase 3: [Clase 3]()
+- Clase 3: [SOLUCIÓN de CORS y Desarrollo de API REST con Express](https://www.youtube.com/watch?v=-9d3KhCqOtU)
 
 ## Configurations
 
@@ -51,7 +51,7 @@ Curso de Node.js desde cero
     }
     ```
 
-### Behind a proxy?
+### Behind a corporate proxy?
 
 Disable (and then renable) strict mode to install npm packages:
 
@@ -61,4 +61,4 @@ Disable (and then renable) strict mode to install npm packages:
 
 ## Continue...
 
-Clase 3
+Clase 4
