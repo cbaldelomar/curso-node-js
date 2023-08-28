@@ -60,7 +60,8 @@ app.post('/movies', (req, res) => {
   const result = validateMovie(req.body)
 
   if (!result.success) {
-    return res.status(400).json({ error: JSON.parse(result.error.message) })
+    // return res.status(400).json({ error: JSON.parse(result.error.message) })
+    return res.status(400).json(result.error.format())
   }
 
   const newMovie = {

@@ -1,12 +1,15 @@
 const z = require('zod')
 const genres = require('../genres.json')
 
+const currentYear = new Date().getFullYear()
+
 const movieSchema = z.object({
   title: z.string({
     required_error: 'Title is required',
     invalid_type_error: 'Title must be a string'
   }),
-  year: z.number().int().min(1900).max(Date.now().year, { message: 'Year must be between 1900 and the current year' }),
+  year: z.number().int().min(1900).max(currentYear,
+    { message: `Year must be between 1900 and the current year (${currentYear})` }),
   director: z.string(),
   duration: z.number().positive({ message: 'Duration must be greater than 0' }),
   poster: z.string().url({ message: 'Poster must be a valid URL' }),
