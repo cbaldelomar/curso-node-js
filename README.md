@@ -7,6 +7,7 @@ Curso para aprender **Node.js** desde cero.
 - Clase 1: [Introdcción a Node.js y módulos](https://www.youtube.com/watch?v=yB4n_K7dZV8)
 - Clase 2: [Desarrollando una API con Express desde cero](https://www.youtube.com/watch?v=YmZE1HXjpd4)
 - Clase 3: [SOLUCIÓN de CORS y Desarrollo de API REST con Express](https://www.youtube.com/watch?v=-9d3KhCqOtU)
+- Clase 4: [EL PODER de la ARQUITECTURA MVC + Despliegue de API REST](https://www.youtube.com/watch?v=ev3Yxva4wI4)
 
 ## Configurations
 
@@ -63,4 +64,4 @@ Disable (and then renable) strict mode to install npm packages:
 
 ## Continue...
 
-Clase 4
+Clase 4, 1:12:20
