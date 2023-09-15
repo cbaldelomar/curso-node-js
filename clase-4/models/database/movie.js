@@ -1,5 +1,5 @@
 import { MongoClient, ObjectId, ReturnDocument, ServerApiVersion } from 'mongodb'
-const uri = 'mongodb+srv://balde:NUgBiX7wJiYTIWMS@cluster0.qfdd9hp.mongodb.net/?retryWrites=true&w=majority'
+const uri = 'mongodb+srv://user:password@cluster0.qfdd9hp.mongodb.net/?retryWrites=true&w=majority'
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
@@ -65,13 +65,13 @@ export class MovieModel {
     const db = await connect()
     const objectId = new ObjectId(id)
 
-    const { ok, value } = await db.findOneAndUpdate(
+    const data = await db.findOneAndUpdate(
       { _id: objectId }, { $set: movie }, { returnDocument: ReturnDocument.AFTER }
     )
+    
+    if (!data) return false
 
-    if (!ok) return false
-
-    return value
+    return data
   }
 
   static async delete ({ id }) {
