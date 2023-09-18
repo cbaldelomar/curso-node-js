@@ -9,6 +9,25 @@ Curso para aprender **Node.js** desde cero.
 - Clase 3: [SOLUCIÓN de CORS y Desarrollo de API REST con Express](https://www.youtube.com/watch?v=-9d3KhCqOtU)
 - Clase 4: [EL PODER de la ARQUITECTURA MVC + Despliegue de API REST](https://www.youtube.com/watch?v=ev3Yxva4wI4)
 
+## Use [fnm](https://github.com/Schniz/fnm) as version manager
+
+- List installed Node.js versions
+    ```bash
+    fnm ls
+    ```
+
+- Install a new Node.js version, e.g. install Node v18:
+    ```bash
+    fnm install 18
+    ```
+
+- Change Node.js version
+    ```bash
+    fnm use 18
+    ```
+
+_For more information see [fnm docs](https://github.com/Schniz/fnm/blob/master/docs/commands.md)._
+
 ## Configurations
 
 ### Config linter
@@ -64,4 +83,4 @@ Disable (and then reenable) strict mode to install npm packages:
 
 ## Continue...
 
-Clase 4, 1:12:20
+Clase 5
