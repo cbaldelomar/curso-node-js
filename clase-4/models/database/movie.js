@@ -68,7 +68,7 @@ export class MovieModel {
     const data = await db.findOneAndUpdate(
       { _id: objectId }, { $set: movie }, { returnDocument: ReturnDocument.AFTER }
     )
-    
+
     if (!data) return false
 
     return data
