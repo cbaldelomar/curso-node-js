@@ -8,6 +8,8 @@ Curso para aprender **Node.js** desde cero.
 - Clase 2: [Desarrollando una API con Express desde cero](https://www.youtube.com/watch?v=YmZE1HXjpd4)
 - Clase 3: [SOLUCIÓN de CORS y Desarrollo de API REST con Express](https://www.youtube.com/watch?v=-9d3KhCqOtU)
 - Clase 4: [EL PODER de la ARQUITECTURA MVC + Despliegue de API REST](https://www.youtube.com/watch?v=ev3Yxva4wI4)
+- Clase 5: [Crea un Base de Datos MySQL y evita los hackers](https://www.youtube.com/watch?v=eCWNQfzuuso)
+- Clase 6: [Chat en TIEMPO REAL con Node.js, Socket.io, SQL, HTML y CSS](https://www.youtube.com/watch?v=WpbBhTx5R9Q)
 
 ## Use [fnm](https://github.com/Schniz/fnm) as version manager
 
@@ -83,4 +85,4 @@ Disable (and then reenable) strict mode to install npm packages:
 
 ## Continue...
 
-Clase 5
+Clase 6
